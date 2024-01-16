@@ -12,7 +12,7 @@ Caring about this project is crucial because it directly addresses the escalatin
 ## Dataset
 For this project we used the Kaggle dataset of US accidents from 2016 to 2023. This is a countrywide car accident dataset that covers 49 states of the USA. The dataset contains and detailing geographical, meteorogical and dynamical information about 7.7 million accident records.
 
-Futher detail please refer: 
+Futher detail please refer: [6242DVAteam46/CarAccientVisualization.github.io](https://github.com/6242DVAteam46/CarAccidentVisualization.github.io.git)
 
 ## Prediction model approches:
 We first had to create a graph **G = {V,E}** of intersections **V** and road segments **E**, assigning accident locations to the least-squared closest roads. The resulting graph captures the number of accidents per road segment in the state of Georgia. By defining a path planning algorithm, it is enough to modify the weights of the graph (the real distance between each intersection) to obtain a graph taking into account the distance and the dangerousness of this intersection.
